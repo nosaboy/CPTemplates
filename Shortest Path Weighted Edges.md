@@ -1,4 +1,5 @@
 ## Dijkstra
+```cpp
 rep(i,1,n+1){
 	distance[i] = INF;
 	vis[i] = 0;
@@ -25,7 +26,7 @@ while (!pq.empty()) {
     		}
     }
 }
-
+```
 ## Floyd Warshall
 Get all distance $a$ to $b$ in $O(n^3)$
 ```cpp
